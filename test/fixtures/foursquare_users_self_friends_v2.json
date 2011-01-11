@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: nginx/0.8.52
+Date: Tue, 11 Jan 2011 04:40:23 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit: 500
+X-RateLimit-Remaining: 496
+Expires: Tue, 11 Jan 2011 04:40:23 UTC
+Cache-Control: no-cache; private; no-store
+Pragma: no-cache
+
+{"meta":{"code":200},"response":{"friends":{"count":2,"items":[{"id":"1","firstName":"firstName1","lastName":"lastName2","photo":"blank.jpg","gender":"male","homeCity":"Knoxville, TN","relationship":"friend"},{"id":"2","firstName":"firstName2","lastName":"lastName2","photo":"blank.jpg","gender":"male","homeCity":"Saginaw, MI","relationship":"friend"}]}}}

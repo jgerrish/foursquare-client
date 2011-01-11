@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx/0.8.52
+Date: Fri, 17 Dec 2010 02:02:58 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Expires: Fri, 17 Dec 2010 02:02:58 UTC
+Cache-Control: no-cache; private; no-store
+Pragma: no-cache
+
+{"meta":{"code":200},"response":{"user":{"id":"1","firstName":"firstName1","lastName":"lastName2","photo":"blank.jpg","gender":"male","homeCity":"Seattle, WA","relationship":"self","type":"user","pings":false,"contact":{"phone":"1111111111","email":"xxxxxxxx@xxxxx.xxx","twitter":"xxxxxxxx","facebook":"1111111"},"badges":{"count":11},"mayorships":{"count":0,"items":[]},"checkins":{"count":170,"items":[{"id":"4d09379d611ff04d37021ffb","createdAt":1292449693,"type":"checkin","venue":{"id":"4700946bf964a520344b1fe3","name":"Detroit Metropolitan Wayne County Airport (DTW) ✈","contact":{"phone":"7342477678","twitter":"DTWeetin"},"location":{"address":"1 Detroit Metropolitan Airport","crossStreet":"I-94 & I-275","city":"Romulus","state":"MI","postalCode":"48242","lat":42.207795004954136,"lng":-83.3562970161438},"categories":[{"id":"4bf58dd8d48988d1ed931735","name":"Airport","icon":"http://foursquare.com/img/categories/travel/airport.png","parents":["Travel"],"primary":true}],"verified":true,"stats":{"checkinsCount":45047,"usersCount":19925},"todos":{"count":0}}}]},"friends":{"count":20,"groups":[{"type":"others","name":"other friends","count":20,"items":[]}]},"requests":{"count":1},"tips":{"count":0},"todos":{"count":0}}}}

@@ -1,6 +1,52 @@
 = foursquare-client
 
-Description goes here.
+foursquare-client is a Ruby gem that provides an interface to the Foursquare v2 API.
+
+For more information about the Foursquare API, check out their developer site:
+
+http://developer.foursquare.com/docs/
+
+== Information
+
+=== Source
+
+The foursquare-client github page has the current version of the source:
+
+https://github.com/jgerrish/foursquare-client
+
+
+== Installation
+
+You can install the latest gem from rubygems.org using the gem tool:
+
+  gem install foursquare-client
+
+== Getting started
+
+Before you use the library, you will need an oauth2 access token.
+Most of the Foursquare endpoints require authentication.  The
+Foursquare API v2 uses oauth2 to authenticate requests against the
+API.
+
+The oauth2 gem lets you easily integrate with the oauth2 flow:
+
+https://github.com/intridea/oauth2
+
+Using oauth2 is beyond the scope of this document.  Consult the oauth2
+gem documentation for help on setting it up.
+
+
+Once you have an access token, initializing the foursquare-client library is as simple as:
+
+  foursquare = Foursquare::Client(access_token)
+
+Once you have initialized the library, you can make calls using the methods:
+
+  # Returns the user associated with the access token
+  user = foursquare.users
+
+See the tests for further examples of use.
+
 
 == Contributing to foursquare-client
  

@@ -1,0 +1,12 @@
+HTTP/1.1 401 Unauthorized
+Server: nginx/0.8.52
+Date: Tue, 11 Jan 2011 04:49:02 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Expires: Tue, 11 Jan 2011 04:49:02 UTC
+Content-Length: 121
+Cache-Control: no-cache; private; no-store
+Pragma: no-cache
+
+{"meta":{"code":401,"errorType":"invalid_auth","errorDetail":"OAuth token not found or has been revoked."},"response":{}}

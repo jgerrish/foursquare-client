@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: nginx/0.8.52
+Date: Tue, 11 Jan 2011 02:55:57 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit: 500
+X-RateLimit-Remaining: 497
+Expires: Tue, 11 Jan 2011 02:55:57 UTC
+Cache-Control: no-cache; private; no-store
+Pragma: no-cache
+
+{"meta":{"code":200},"response":{"checkin":{"id":"aaaaaaaaaaaaaaaaaaaaaaaa","createdAt":1294708356,"type":"checkin","timeZone":"America/Los_Angeles","user":{"id":"1","firstName":"firstName1","lastName":"lastName1","photo":"blank.jpg","gender":"male","homeCity":"Seattle, WA","relationship":"self"},"venue":{"id":"4a778ddff964a520cae41fe3","name":"Caffe Ladro - Lower Queen Anne","contact":{"phone":"2062821549","twitter":"caffeladro"},"location":{"address":"600 Queen Anne Ave N","crossStreet":"at Roy St","city":"Seattle","state":"WA","postalCode":"98109","country":"USA","lat":47.625026,"lng":-122.356239},"categories":[{"id":"4bf58dd8d48988d1e0931735","name":"Coffee Shop","icon":"http://foursquare.com/img/categories/food/coffeeshop.png","parents":["Food"],"primary":true}],"verified":false,"stats":{"checkinsCount":864,"usersCount":344},"todos":{"count":0}},"source":{"name":"foursquare for Android","url":"http://foursquare.com/devices/android"},"photos":{"count":0,"items":[]},"comments":{"count":0,"items":[]}}}}
